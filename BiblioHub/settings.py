@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-i(xs6*ibq#5gy=+e#&gj278ll2r8@j_od((g8@^dh2tlaf9f7n
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = ['https://bibliohub.onrender.com']
 
 # Application definition
 
